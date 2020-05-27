@@ -1,0 +1,40 @@
+.crumbs-container .center_wrap {
+  width: 1200px;
+  margin: 30px auto;
+}
+
+.crumbs-container .center_wrap .content {
+  font-size: 16px;
+  font-weight: 400;
+  color: #606060;
+}
+
+.crumbs-container .center_wrap .content .active {
+  color: #21A6E2;
+}
+
+.article-container .center_wrap {
+  width: 1200px;
+  margin-bottom: 80px;
+}
+
+.article-container .item-box {
+  margin-top: 20px;
+}
+
+.article-container .item-box h3, .article-container .item-box h2 {
+  line-height: 45px;
+}
+
+.article-container .item-box p {
+  color: #606060;
+  line-height: 20px;
+}
+
+.article-container .item-box .img-box {
+  width: 100%;
+  margin: 30px 0;
+  height: 200px;
+  background: #ccc;
+}
+/*# sourceMappingURL=project-detail.css.map */

@@ -1,0 +1,160 @@
+.mod_section_ad {
+    position: relative;
+    img {
+        transition: transform 12s
+    }
+    img:hover {
+        transform: scale(1.1);
+    }
+    .ad_info {
+        position: absolute;
+        left: 180px;
+        bottom: 40px;
+        margin: 0 auto;
+        padding-left: 120px;
+        display: flex;
+        align-items: center;
+        color: #fff;
+        .info_wrap {
+            display: flex;
+            align-items: flex-end;
+        }
+        .large_text {
+            margin-left: 15px;
+            font-size: 40px;
+            font-weight: 500;
+            line-height: 60px;
+        }
+        .middle_text {
+            margin-left: 15px;
+            font-size: 23px;
+            font-weight: 500;
+        }
+        
+        .send_btn {
+            width: 80px;
+            text-align: center;
+            height: 40px;
+            line-height: 40px;
+            background: #F8E71D;
+            font-size: 12px;
+            color: #050505;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    }
+}
+
+.article-container {
+    margin: 30px 0 60px 0;
+    .article-title {
+        display: flex;
+        padding: 40px 0 30px 0;
+        .tabs {
+            margin-left: 20px;
+            width: 300px;
+            display: flex;
+            align-items: flex-end;
+            .tab {
+                font-size: 16px;
+                margin: 0 10px;
+                color: #606060;
+                cursor: pointer;
+                &:hover {
+                    color: #050505;
+                    position: relative;
+                    &::after {
+                        content: '';
+                        width: 100%;
+                        height: 2px;
+                        background: #506CAD;
+                        position: absolute;
+                        bottom: -1px;
+                        left: 0;
+                    }
+                }
+            }
+            .active {
+                color: #050505;
+                position: relative;
+                &::after {
+                    content: '';
+                    width: 100%;
+                    height: 2px;
+                    background: #506CAD;
+                    position: absolute;
+                    bottom: -1px;
+                    left: 0;
+                }
+            }
+        }
+        .remarks {
+            display: flex;
+            align-items: flex-end;
+            margin-left: 20px;
+            font-size: 19px;
+        }
+    }
+    .article-text {
+        line-height: 16px;
+        margin-bottom: 20px;
+        color: #606060;
+    }
+    .article-list {
+        display: flex;
+        justify-content: space-between;
+        .article-itme {
+            width: 30%;
+            margin-bottom: 20px;
+            .img-box {
+                width: 100%;
+                height: 200px;
+                background: #ccc;
+                overflow: hidden;
+                position: relative;
+                img {
+                    width:100%;
+                    height:100%;
+                }
+                .shadow {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 100%;
+                    height: 80px;
+                    background:rgba(5,5,5,0.51);
+                    font-size: 30px;
+                    font-weight: 500;
+                    color: #fff;
+                    display: flex;
+                    align-items: flex-end;
+                    padding: 15px;
+                    box-sizing: border-box;
+                }
+            }
+            .content {
+                padding-top: 40px;
+                p {
+                    line-height: 24px;
+                }
+            }
+            .grad {
+                height: 280px;
+                box-sizing: border-box;
+                padding: 10px;
+                background:rgba(247,247,247,1);
+            }
+            h4 {
+                line-height: 41px;
+            }
+        }
+    }
+    .img-ad {
+        width: 100%;
+        margin: 40px 0;
+        text-align: center;
+        img {
+            width: 80%;
+        }
+    }
+}

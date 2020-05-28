@@ -1,0 +1,82 @@
+.job .banner{
+    width: 100%;
+    height: 348px;
+}
+.job .banner img{
+    width: 100%;
+    height: 100%;
+}
+.txt-p{
+    color: #606060;
+    font-size: 19px;
+    line-height: 30px;
+}
+.job-company-desc {
+    font-size: 19px;
+    margin-top: 15px;
+    margin-bottom: 26px;
+}
+.job-h3{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+.job-list{
+    background:rgba(253,249,249,1);
+    border-radius:11px; 
+    margin-bottom: 39px;
+}
+.job-list .job-item{
+    width: 44%;
+    float: left;
+    padding-left: 2%;
+    padding-right: 4%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.job-item .job-name{
+    font-size: 15px;
+    color: #060606;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.job-h{
+    margin-top: 24px;
+}
+.job-tag{
+    margin-left: -3px;
+    margin-bottom: 15px;
+}
+.job-tag span{
+    font-size: 15px;
+    color: #606060;
+    padding-right: 10px;
+    font-weight: bold;
+    position: relative;
+    padding-left: 3px;
+}
+
+.job-tag span::after{
+    content: '';
+    display: block;
+    height: 15px;
+    position: absolute;
+    right: 0;
+    width: 2px;
+    background: #606060;
+    top: 3px;
+}
+.job-tag span:last-child::after{
+    content: '';
+    display: block;
+    height: 0;
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: none;
+    top: 0;
+}
+.job-need{
+    font-size: 15px;
+    color: #606060;
+    line-height: 19px;
+}

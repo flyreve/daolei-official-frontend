@@ -3,6 +3,7 @@
 }
 
 .mod_section_ad img {
+  height: 100%;
   -webkit-transition: -webkit-transform 12s;
   transition: -webkit-transform 12s;
   transition: transform 12s;
@@ -157,6 +158,10 @@
 .function-card .fun-list .fun-item .li-wrap .footer .link {
   color: #409EFF;
   cursor: pointer;
+}
+
+.footer_link_icon li{
+  margin-top: 5px;
 }
 
 .ad-box2 {
@@ -355,11 +360,17 @@
 
 .video-play .video-name {
   font-size: 32px;
-  margin: 200px 200px 300px 200px;
+  margin: 200px 200px 140px 200px;
 }
 
 .video-play .watcher {
   font-size: 26px;
+}
+
+.video-play .play img {
+  margin-top: 20px;
+  width: 100px;
+  height: 100px;
 }
 
 .intention-form {

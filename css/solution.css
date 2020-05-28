@@ -2,24 +2,11 @@
   position: relative;
 }
 
-.mod_section_ad img {
-  -webkit-transition: -webkit-transform 12s;
-  transition: -webkit-transform 12s;
-  transition: transform 12s;
-  transition: transform 12s, -webkit-transform 12s;
-}
-
-.mod_section_ad img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .mod_section_ad .ad_info {
   position: absolute;
-  left: 180px;
-  bottom: 40px;
-  margin: 0 auto;
-  padding-left: 120px;
+  left: 125px;
+  bottom: 90px;
+  z-index: 2000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,6 +15,7 @@
           align-items: center;
   color: #fff;
 }
+
 
 .mod_section_ad .ad_info .info_wrap {
   display: -webkit-box;

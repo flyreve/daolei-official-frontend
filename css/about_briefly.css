@@ -23,3 +23,51 @@
 .service{
     margin-bottom: 62px;
 }
+.company-tag{
+    display: flex;
+}
+.company-tag .img-cicle{
+    width: 145px;
+    height: 145px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 25px;
+    font-weight: 400;
+}
+.company-tag .tag01{
+    color: #1296DB;
+    border: 1px solid #1296DB;
+}
+.company-tag .tag02{
+    color: #D81E06;
+    border: 1px solid #D81E06;
+}
+.company-tag .tag03{
+    color: #F3933B;
+    border: 1px solid #F3933B;
+}
+.company-tag .tag04{
+    color: #D73484;
+    border: 1px solid #D73484;
+}
+.company-tag li{
+    width: 50%;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.company-tag li img{
+    width: 90px;
+    height: 90px;
+} 
+.company-tag li .tag-txt{
+    margin-left: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 250px;
+} 

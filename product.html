@@ -7,6 +7,7 @@
     <meta name="description" content="道磊科技官网" />
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/product.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
     <title>道磊科技官网-产品数字运营</title>
     <style>
 
@@ -25,10 +26,10 @@
                     <li class="menu_item">
                         <a href="./home.html">首页</a>
                     </li>
-                    <li class="menu_item">
+                    <li class="menu_item"  id="solution">
                         <a href="./solution.html">解决方案&数据服务</a>
                     </li>
-                    <li class="menu_item active">
+                    <li class="menu_item active"  id="product">
                         <a href="./product.html">产品数字化运营</a>
                     </li>
                     <li class="menu_item">
@@ -39,13 +40,96 @@
                     </li>
                 </ul>
             </div>
+            <div class="drop-down-menu" id="drop-down-solution">
+                <div class="center_wrap">
+                    <div class="menu-list">
+                        <dl>
+                            <dt> 软件与技术服务  </dt>
+                            <dd class="link_type">
+                                ·cms管理系统
+                            </dd>
+                            <dd class="link_type">
+                                ·工具型系统
+                            </dd>
+                            <dd class="link_type">
+                                ·应用产品
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>  大数据服务   </dt>
+                            <dd class="link_type">
+                                ·汇聚采集平台
+                            </dd>
+                            <dd class="link_type">
+                                ·数据中心
+                            </dd>
+                            <dd class="link_type">
+                                ·电信大数据平台
+                            </dd>
+                            <dd class="link_type">
+                                ·JDP企业分析平台 
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>   行业  </dt>
+                            <dd class="link_type">
+                                ·航空行业
+                            </dd>
+                            <dd class="link_type">
+                                ·政企
+                            </dd>
+                            <dd class="link_type">
+                                ·公共服务行业
+                            </dd>
+                            <dd class="link_type">
+                                ·电力行业 
+                            </dd>
+                            <dd class="link_type">
+                                ·通信行业 
+                            </dd>
+                            <dd class="link_type">
+                                ·石化行业 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="menu-banner">
+                        <img src="./static/images/solution/ar_03.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="drop-down-menu" id="drop-down-product">
+                <div class="center_wrap">
+                    <div class="menu-list">
+                        <dl>
+                            <dt> 软件与技术服务  </dt>
+                            <dd class="link_type">
+                                ·cms管理系统
+                            </dd>
+                            <dd class="link_type">
+                                ·工具型系统
+                            </dd>
+                            <dd class="link_type">
+                                ·应用产品
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="menu-banner">
+                        <img src="./static/images/solution/ar_03.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- 页头区域 -->
         <!-- 内容区域 -->
         <div class="warp_content home_wrap_content">
             <div class="mod_section_ad">
-                <!-- <img src="./static/images/product/banner.png" alt="" srcset=""> -->
-                <div class="wrap">
+                <div class="center_wrap swiper-container">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="./static/images/product/banner.png" alt="" srcset="">
+                        <img class="swiper-slide" src="./static/images/product/banner.png" alt="" srcset="">
+                    </div>
+                    <div class="swiper-pagination"></div>
                     <div class="ad_info">
                         <div class="info_wrap">
                             <p class="large_text">综合服务平台</p>
@@ -156,12 +240,17 @@
                     </div>
                     <p> 融合线上支付，团购，节日营销，互联网营销等中国先进互联网运营经验，为广大缅甸用户，提供便利，优惠的类美团服务。</p>
                     <div class="article03-content">
-                        <div class="left">
-                            <div class="img-box"> </div>
+                        <div class="img-box">
+                            <img src="./static/images/product/pro_ar02.png" alt="">
+                        </div>
+                        <!-- <div class="left">
+                            <div class="img-box">
+                                <img src="./static/images/product/pro_ar02.png" alt="">
+                            </div>
                         </div>
                         <div class="right">
                             <div class="img-box"> </div>
-                        </div>
+                        </div> -->
                     </div>
                     <p class="article03-p">产品融合了线上支付，团购，节日营销，互联网营销等中国先进互联网运营经验，为广大缅甸用户，提供便利，优惠的类美团服务。目前合作商户上千家，用户数十万人。以后逐步推行到Telenor、Ooredoo、Mytel等其他缅甸运营商，覆盖6700万缅甸人民。
                     </p>
@@ -170,9 +259,15 @@
                     </div>
                     
                     <div class="product-pic-list">
-                            <div class="pic-item"></div> 
-                            <div class="pic-item"></div> 
-                            <div class="pic-item"></div> 
+                            <div class="pic-item">
+                                <img src="./static/images/product/pro_ar03_1.gif" alt="">
+                            </div> 
+                            <div class="pic-item">
+                                <img src="./static/images/product/pro_ar03_2.gif" alt="">
+                            </div> 
+                            <div class="pic-item">
+                                <img src="./static/images/product/pro_ar03_3.gif" alt="">
+                            </div> 
                     </div>
                 </div>
             </div>
@@ -239,5 +334,9 @@
             <p class="footer_bottom">版权所有 滇ICP备14001861号-1</p>
         </div>
     </div>
+
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/animation.js"></script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 .mod_section_ad {
   position: relative;
-  background: url(../static/images/product/banner.png) no-repeat 50% 50%/cover;
 }
 
 .mod_section_ad .ad_info {
@@ -8,7 +7,8 @@
   right: 263px;
   bottom: 120px;
   margin: 0 auto;
-  padding-left: 120px;
+  /* padding-left: 120px; */
+  z-index: 2000;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -221,12 +221,19 @@
 .article03 .article03-content {
   margin-top: 30px;
   border: 1px solid #D8D8D8;
-  height: 250px;
+  /* height: 250px; */
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
-
+.article03 .article03-content .img-box{
+  width: 100%;
+  /* background: #ccc; */
+}
+.article03 .article03-content .img-box img{ 
+   width: 100%;
+  /* background: #ccc; */
+}
 .article03 .article03-content .left {
   height: 100%;
   -webkit-box-flex: 1;
@@ -270,8 +277,9 @@
 }
 
 .article03 .product-pic-list .pic-item {
-  width: 29%;
-  height: 200px;
-  background: #ccc;
+  width: 300px;
+  /* width: 29%; */
+  /* height: 200px; */
+  /* background: #ccc; */
 }
 /*# sourceMappingURL=product.css.map */

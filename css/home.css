@@ -2,23 +2,11 @@
   position: relative;
 }
 
-.mod_section_ad img {
-  height: 100%;
-  -webkit-transition: -webkit-transform 12s;
-  transition: -webkit-transform 12s;
-  transition: transform 12s;
-  transition: transform 12s, -webkit-transform 12s;
-}
-
-.mod_section_ad img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .mod_section_ad .ad_info {
   position: absolute;
   left: 0;
   top: 90px;
+  z-index: 2000;
   margin: 0 auto;
   padding-left: 120px;
   display: -webkit-box;
@@ -107,7 +95,6 @@
 }
 
 .function-card {
-  height: 450px;
   text-align: center;
 }
 
@@ -122,11 +109,12 @@
 
 .function-card .fun-list .fun-item {
   width: 33.3%;
-  height: 240px;
+  height: 400px;
   float: left;
 }
 
 .function-card .fun-list .fun-item .li-wrap {
+  box-sizing: border-box;
   height: 100%;
   margin: 0 30px;
   padding: 60px 30px 60px 30px;
@@ -147,10 +135,13 @@
   text-align: left;
   color: #AAAAAA;
 }
-
+.function-card .fun-list .fun-item .li-wrap .article:hover {
+  color: #040404;
+}
 .function-card .fun-list .fun-item .li-wrap .footer {
   width: 100%;
   position: absolute;
+  left: 0;
   bottom: 30px;
   text-align: center;
 }
@@ -230,6 +221,7 @@
 }
 
 .ad-box2 .center_wrap .right .top {
+  overflow: hidden;
   height: 200px;
 }
 
@@ -303,6 +295,7 @@
 }
 
 .ad-box3 .system-list .system-item .li-wrap .img-box {
+  display: block;
   border-radius: 4px;
   height: 300px;
   width: 100%;
@@ -312,15 +305,6 @@
 .ad-box3 .system-list .system-item .li-wrap .img-box img {
   width: 100%;
   height: 100%;
-  -webkit-transition: -webkit-transform 12s;
-  transition: -webkit-transform 12s;
-  transition: transform 12s;
-  transition: transform 12s, -webkit-transform 12s;
-}
-
-.ad-box3 .system-list .system-item .li-wrap .img-box img:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
 }
 
 .ad-box3 .system-list .system-item .li-wrap .remark {
@@ -338,14 +322,31 @@
 }
 
 .banner .center_wrap {
-  width: 1000px;
+  width: 1200px;
 }
 
 .video-play {
-  padding-bottom: 100px;
-  background: #006987;
+  /* background: #006987; */
   color: #fff;
-  background: url(../static/images/home/video-play.png) no-repeat 50% 50%/cover;
+  height: 550px;
+  /* background: url(../static/images/home/video-play.png) no-repeat 50% 50%/cover; */
+}
+.video-play .banner-img {
+  width: 100%;
+  height: 100%;
+  transition: transform 6s
+}
+.video-play .shadow-text {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  text-align: center;
+}
+
+.video-play .center_wrap:hover .banner-img {
+  transform: scale(1.1);
 }
 
 .video-play .flex {
@@ -360,7 +361,7 @@
 
 .video-play .video-name {
   font-size: 32px;
-  margin: 200px 200px 140px 200px;
+  margin: 120px 200px 140px 200px;
 }
 
 .video-play .watcher {

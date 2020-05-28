@@ -7,10 +7,10 @@
     <meta name="description" content="道磊科技官网" />
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
     <title>道磊科技官网-首页</title>
     <style>
-
-    </style>
+      </style>
 </head>
 <body>
     <div class="wrap">
@@ -25,10 +25,10 @@
                     <li class="menu_item active">
                         <a href="./home.html">首页</a>
                     </li>
-                    <li class="menu_item">
+                    <li class="menu_item"  id="solution">
                         <a href="./solution.html">解决方案&数据服务</a>
                     </li>
-                    <li class="menu_item">
+                    <li class="menu_item"  id="product">
                         <a href="./product.html">产品数字化运营</a>
                     </li>
                     <li class="menu_item">
@@ -39,20 +39,104 @@
                     </li>
                 </ul>
             </div>
-        </div>
-        <!-- 页头区域 -->
-        <!-- 内容区域 -->
-        <div class="warp_content home_wrap_content">
-            <div class="mod_section_ad">
+            <div class="drop-down-menu" id="drop-down-solution">
                 <div class="center_wrap">
-                    <img src="./static/images/home_banner.png" alt="" srcset="">
+                    <div class="menu-list">
+                        <dl>
+                            <dt> 软件与技术服务  </dt>
+                            <dd class="link_type">
+                                ·cms管理系统
+                            </dd>
+                            <dd class="link_type">
+                                ·工具型系统
+                            </dd>
+                            <dd class="link_type">
+                                ·应用产品
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>  大数据服务   </dt>
+                            <dd class="link_type">
+                                ·汇聚采集平台
+                            </dd>
+                            <dd class="link_type">
+                                ·数据中心
+                            </dd>
+                            <dd class="link_type">
+                                ·电信大数据平台
+                            </dd>
+                            <dd class="link_type">
+                                ·JDP企业分析平台 
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>   行业  </dt>
+                            <dd class="link_type">
+                                ·航空行业
+                            </dd>
+                            <dd class="link_type">
+                                ·政企
+                            </dd>
+                            <dd class="link_type">
+                                ·公共服务行业
+                            </dd>
+                            <dd class="link_type">
+                                ·电力行业 
+                            </dd>
+                            <dd class="link_type">
+                                ·通信行业 
+                            </dd>
+                            <dd class="link_type">
+                                ·石化行业 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="menu-banner">
+                        <img src="./static/images/solution/ar_03.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="drop-down-menu" id="drop-down-product">
+                <div class="center_wrap">
+                    <div class="menu-list">
+                        <dl>
+                            <dt> 软件与技术服务  </dt>
+                            <dd class="link_type">
+                                ·cms管理系统
+                            </dd>
+                            <dd class="link_type">
+                                ·工具型系统
+                            </dd>
+                            <dd class="link_type">
+                                ·应用产品
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="menu-banner">
+                        <img src="./static/images/solution/ar_03.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="warp_content home_wrap_content">
+
+            <div class="mod_section_ad">
+                <div class="center_wrap swiper-container">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="./static/images/home_banner.png" alt="" srcset="">
+                        <img class="swiper-slide" src="./static/images/home_banner.png" alt="" srcset="">
+                    </div>
+                    
+                    <div class="swiper-pagination"></div>
                     <div class="ad_info">
                         <div class="info_wrap">
                             <p class="large_text">定制化软件开发</p>
                             <p class="middle_text">智慧城管项目</p>
                             <div class="send_input">
                                 <input type="text" placeholder="发送邮件地址">
-                                <div class="send_btn">合作洽谈</div>
+                                <a class="send_btn" href="./solution_xmzx.html">合作洽谈</a>
                             </div>
                         </div>
                     </div>
@@ -123,7 +207,7 @@
                     </div>
                     <div class="right">
                         <div class="top">
-                            <img src="./static/images/home_banner.png" alt="">
+                            <img class="img-animation" src="./static/images/home_banner.png" alt="">
                         </div>
                         <div class="bottom">
                             <h2>智慧城管 </h2>
@@ -150,25 +234,25 @@
                     <ul class="system-list">
                         <li class="system-item">
                             <div class="li-wrap">
-                                <div class="img-box">
-                                    <img src="./static/images/home/system1.png" alt="">
-                                </div>
+                                <a class="img-box" href="./solution_xmxq.html">
+                                    <img class="img-animation" src="./static/images/home/system1.png" alt="">
+                                </a>
                                 <div class="remark">云招服务平台</div>
                             </div>
                         </li>
                         <li class="system-item">
                             <div class="li-wrap">
-                                <div class="img-box">
-                                    <img src="./static/images/home/system2.png" alt="">
-                                </div>
+                                <a class="img-box" href="./solution_xmxq.html">
+                                    <img class="img-animation" src="./static/images/home/system2.png" alt="">
+                                </a>
                                 <div class="remark">智慧城管</div>
                             </div>
                         </li>
                         <li class="system-item">
                             <div class="li-wrap">
-                                <div class="img-box">
-                                    <img src="./static/images/home/system3.png" alt="">
-                                </div>
+                                <a class="img-box"  href="./solution_xmxq.html">
+                                    <img class="img-animation" src="./static/images/home/system3.png" alt="">
+                                </a>
                                 <div class="remark">综合乐对讲综合平台</div>
                             </div>
                         </li>
@@ -176,13 +260,57 @@
                 </div>
             </div>
             <div class="banner">
-                <div class="center_wrap"></div>
+                <div class="center_wrap operators-swiper-slide">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                              <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                          <div class="swiper-slide">
+                            <img src="./static/images/home/dianxin.png" alt="">
+                          </div>
+                        </div>
+                        <!-- Add Arrows -->
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                </div>
             </div>
             <div class="video-play">
                 <div class="center_wrap flex">
-                    <div class="video-name">“大数据统计,秒级处理，数据分析，数据建模，神策数据，深度洞察用户数据，定制化采集方案.”</div>
-                    <div class="link link_type">查看>></div>
-                    <div class="play link_type"><img src="./static/images/home/play.png" alt=""></div>
+                    <img class="banner-img" src="./static/images/home/video-play.png" alt="">
+                    <div class="shadow-text">
+                        <div class="video-name">“大数据统计,秒级处理，数据分析，数据建模，神策数据，深度洞察用户数据，定制化采集方案.”</div>
+                        <div class="link link_type">查看>></div>
+                        <div class="play link_type"><img class="img-animation" src="./static/images/home/play.png" alt=""></div></div>
                 </div>
             </div>
             <div class="intention-form">
@@ -297,5 +425,8 @@
             <p class="footer_bottom">版权所有 滇ICP备14001861号-1</p>
         </div>
     </div>
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/animation.js"></script>
 </body>
 </html>

@@ -7,6 +7,7 @@
     <meta name="description" content="道磊科技官网" />
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/solution.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
     <title>道磊科技官网-解决方案&数据服务</title>
     <style>
 
@@ -26,10 +27,10 @@
                     <li class="menu_item ">
                         <a href="./home.html">首页</a>
                     </li>
-                    <li class="menu_item active">
+                    <li class="menu_item active" id="solution">
                         <a href="./solution.html">解决方案&数据服务</a>
                     </li>
-                    <li class="menu_item">
+                    <li class="menu_item" id="product">
                         <a href="./product.html">产品数字化运营</a>
                     </li>
                     <li class="menu_item">
@@ -40,23 +41,107 @@
                     </li>
                 </ul>
             </div>
+            
+            <div class="drop-down-menu" id="drop-down-solution">
+                <div class="center_wrap">
+                    <div class="menu-list">
+                        <dl>
+                            <dt> 软件与技术服务  </dt>
+                            <dd class="link_type">
+                                ·cms管理系统
+                            </dd>
+                            <dd class="link_type">
+                                ·工具型系统
+                            </dd>
+                            <dd class="link_type">
+                                ·应用产品
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>  大数据服务   </dt>
+                            <dd class="link_type">
+                                ·汇聚采集平台
+                            </dd>
+                            <dd class="link_type">
+                                ·数据中心
+                            </dd>
+                            <dd class="link_type">
+                                ·电信大数据平台
+                            </dd>
+                            <dd class="link_type">
+                                ·JDP企业分析平台 
+                            </dd>
+                        </dl>
+                        <dl>
+                            <dt>   行业  </dt>
+                            <dd class="link_type">
+                                ·航空行业
+                            </dd>
+                            <dd class="link_type">
+                                ·政企
+                            </dd>
+                            <dd class="link_type">
+                                ·公共服务行业
+                            </dd>
+                            <dd class="link_type">
+                                ·电力行业 
+                            </dd>
+                            <dd class="link_type">
+                                ·通信行业 
+                            </dd>
+                            <dd class="link_type">
+                                ·石化行业 
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="menu-banner">
+                        <img src="./static/images/solution/ar_03.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="drop-down-menu" id="drop-down-product">
+                <div class="center_wrap">
+                    <div class="menu-list">
+                        <dl>
+                            <dt> 软件与技术服务  </dt>
+                            <dd class="link_type">
+                                ·cms管理系统
+                            </dd>
+                            <dd class="link_type">
+                                ·工具型系统
+                            </dd>
+                            <dd class="link_type">
+                                ·应用产品
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="menu-banner">
+                        <img src="./static/images/solution/ar_03.png" alt="">
+                    </div>
+                </div>
+            </div>
         </div>
         <!-- 页头区域 -->
         <!-- 内容区域 -->
         <div class="warp_content home_wrap_content">
             <div class="mod_section_ad">
-                <img src="./static/images/solution/banner.png" alt="" srcset="">
-<!--                <div class="center wrap">-->
+                <div class="center_wrap swiper-container">
+                    <div class="swiper-wrapper">
+                        <img class="swiper-slide" src="./static/images/solution/banner.png" alt="" srcset="">
+                        <img class="swiper-slide" src="./static/images/solution/banner.png" alt="" srcset="">
+                    </div>
+                    <div class="swiper-pagination"></div>
                     <div class="ad_info">
                         <div class="info_wrap">
-                            <div class="send_btn">项目咨询</div>
+                            <a class="send_btn" href="./solution_xmzx.html">项目咨询</a>
                             <div>
                                 <p class="large_text">多个行业解决方案技术支撑</p>
                                 <p class="middle_text">专业技术服务商</p>
                             </div>
                         </div>
                     </div>
-<!--                </div>-->
+                    </div>
             </div>
             <div class="article-container">
                 <div class="center_wrap">
@@ -305,5 +390,9 @@
             <p class="footer_bottom">版权所有 滇ICP备14001861号-1</p>
         </div>
     </div>
+
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+    <script src="./js/animation.js"></script>
 </body>
 </html>

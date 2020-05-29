@@ -278,8 +278,11 @@
 
 .article03 .product-pic-list .pic-item {
   width: 300px;
-  /* width: 29%; */
-  /* height: 200px; */
-  /* background: #ccc; */
+  width: 33%;
+  text-align: center;
+}
+.article03 .product-pic-list .pic-item img{
+  width: 262px;
+  height: 475px;
 }
 /*# sourceMappingURL=product.css.map */

@@ -1,20 +1,26 @@
   $(document).ready(function(){
-      $("#solution").mouseenter(function(){
-          $('#drop-down-solution').css("display", "block");
-          $('#drop-down-product').css("display", "none");
-      });
-      $("#drop-down-solution").mouseleave(function(){
-          $('#drop-down-solution').css("display", "none");
-      });
+  //   $(".wrap_head .menu-list .menu_item_li").hover(function(){
+	// 		var list=$('.drop-down-menu')
+  //     for(var i=0;i < list.length;i++){
+  //         $(list[i]).css({
+  //             "display": "none"
+  //         });
+  //     }
 
-      $("#product").mouseenter(function(){
-          $('#drop-down-product').css("display", "block");
-          $('#drop-down-solution').css("display", "none");
-      });
-      $("#drop-down-product").mouseleave(function(){
-          $('#drop-down-product').css("display", "none");
-      });
-   });
+  //     var showClass = $(this).id
+  //     if(showClass){
+  //       $('#' + id).show()
+  //     }
+  //     console.log(showClass)
+	// 	},function(){      
+  //     var list=$('.drop-down-menu')
+  //     for(var i=0;i < list.length;i++){
+  //         $(list[i]).css({
+  //             "display": "none"
+  //         });
+  //     }
+  //   });
+    
   var swiper = new Swiper('.swiper-container', {
     spaceBetween: 30,
     centeredSlides: true,
@@ -47,3 +53,4 @@
       prevEl: '.swiper-button-prev',
     },
   });
+})

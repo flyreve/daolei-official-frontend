@@ -167,12 +167,19 @@ line-height: 24px;
    font-size: 11px;
    color:#A6A6AE;
 }
+.footer_con dl dd:hover{
+    color:#FAFCFD;
+}
 .footer_bottom{
    background: #000;
    text-align: center;
    color: #FCF7F7;
    height: 38px;
    line-height: 38px;
+   font-size: 12px;
+}
+.footer_link_icon img:hover{
+    opacity: 0.5;
 }
 /* 轮播广告样式 */
 .mod_section_ad{
@@ -180,7 +187,7 @@ line-height: 24px;
     height: 420px;
 }
 .mod_section_ad img{
-    width: 100%;
+    /* width: 100%; */
     height: 100%;
 }
 /* 面包屑导航 */
@@ -251,6 +258,8 @@ line-height: 24px;
 /* 轮播图 */
 .swiper-container, .operators-swiper-slide {
     height: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
   }
   .swiper-slide {
     text-align: center;

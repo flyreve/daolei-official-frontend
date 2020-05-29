@@ -17,12 +17,12 @@
     width: 100%;
     text-align: center;
     margin: 0 auto;
+    font-weight: bold;
   }
   #conference-timeline .conference-center-line {
     position: absolute;
     width: 1px;
     height: 90%;
-    top: 10px;
     left: 50%;
     margin-left: -2px;
     background: #9B9B9B;

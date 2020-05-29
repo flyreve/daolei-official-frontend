@@ -23,17 +23,17 @@
                     <h1>道磊科技</h1>
                 </a>
                 <ul class="menu_list">
-                    <li class="menu_item">
+                    <li class="menu_item menu_item_li ">
                         <a href="./home.html">首页</a>
                     </li>
-                    <li class="menu_item"  id="solution">
+                    <li class="menu_item  menu_item_li " data-id="#drop-down-solution"  id="solution">
                         <a href="./solution.html">解决方案&数据服务</a>
                     </li>
-                    <li class="menu_item active"  id="product">
+                    <li class="menu_item  menu_item_li active" data-id="#drop-down-product"  id="product">
                         <a href="./product.html">产品数字化运营</a>
                     </li>
-                    <li class="menu_item">
-                        <a href="./about_fzlc.html">关于我们</a>
+                    <li class="menu_item  menu_item_li " data-id="#drop-down-aboutus" id="aboutus">
+                        <a href="./about_briefly.html">关于我们</a>
                     </li>
                     <li class="menu_item">
                         <input type="text" class="search_btn">
@@ -46,7 +46,7 @@
                         <dl>
                             <dt> 软件与技术服务  </dt>
                             <dd class="link_type">
-                                ·cms管理系统
+                                <a>·cms管理系统</a>
                             </dd>
                             <dd class="link_type">
                                 ·工具型系统
@@ -102,15 +102,44 @@
                 <div class="center_wrap">
                     <div class="menu-list">
                         <dl>
-                            <dt> 软件与技术服务  </dt>
                             <dd class="link_type">
-                                ·cms管理系统
+                                <a>· 综合服务平台  </a>
                             </dd>
                             <dd class="link_type">
-                                ·工具型系统
+                                <a>· 缅甸e生活</a>
                             </dd>
                             <dd class="link_type">
-                                ·应用产品
+                                <a>· 东南亚e生活</a>
+                            </dd>
+                        </dl>
+                    </div>
+                    <div class="menu-banner">
+                        <img src="./static/images/solution/ar_03.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="drop-down-menu" id="drop-down-aboutus">
+                <div class="center_wrap">
+                    <div class="menu-list">
+                        <dl>
+                            <dd class="link_type">
+                                <a>· 公司简介 </a>
+                            </dd>
+                            <dd class="link_type">
+                                 <a>· 公司资质</a>
+                            </dd>
+                            <dd class="link_type">
+                                 <a>· 发展历程</a>
+                            </dd>
+                             <dd class="link_type">
+                                 <a>· 人才招募</a>
+                            </dd>
+                             <dd class="link_type">
+                                 <a>· 新闻动态</a>
+                            </dd>
+                            <dd class="link_type">
+                                 <a>· 联系我们</a>
                             </dd>
                         </dl>
                     </div>
@@ -124,11 +153,18 @@
         <!-- 内容区域 -->
         <div class="warp_content home_wrap_content">
             <div class="mod_section_ad">
-                <div class="center_wrap swiper-container">
+                <div class="center_wrap swiper-container" style="width: 100%;">
                     <div class="swiper-wrapper">
-                        <img class="swiper-slide" src="./static/images/product/banner.png" alt="" srcset="">
-                        <img class="swiper-slide" src="./static/images/product/banner.png" alt="" srcset="">
-                    </div>
+                        <div class="swiper-slide" style="background-color: #081F62;">
+                            <img  src="./static/images/product/banner.png" alt="banner">
+                        </div>
+                        <div class="swiper-slide" style="background-color: #081F62;">
+                            <img  src="./static/images/product/banner.png" alt="banner">
+                        </div>
+                        <div class="swiper-slide" style="background-color: #081F62;">
+                            <img  src="./static/images/product/banner.png" alt="banner">
+                        </div>
+                    </div>  
                     <div class="swiper-pagination"></div>
                     <div class="ad_info">
                         <div class="info_wrap">
@@ -338,5 +374,6 @@
     <script src="./js/swiper.min.js"></script>
     <script src="./js/jquery-3.5.1.min.js"></script>
     <script src="./js/animation.js"></script>
+    <script src="./js/base.js"></script>
 </body>
 </html>
